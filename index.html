@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALC</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body>  
+    
+        <header>
+            <h1>
+                CALCULATOR
+            </h1>
+        </header>
+        
+        <div>
+            <p id="dispar"></p>
+        </div>
+        
+        <div>
+           <table>
+               <tr>
+                   <td></td>
+                   <td></td>
+                   <td><button type="button" value="" onclick="erase()">C</button></td>
+                   <td><button type="button" value="+" onclick="key(this.innerHTML)"><</button></td>
+               </tr>
+               <tr>
+                  <td><button type="button" value="7" id="7" onclick="key(this.id)">7</button></td>
+                  <td><button type="button" value="8" id="8" onclick="key(this.id)">8</button></td>
+                   <td><button type="button" value="9" id="9" onclick="key(this.id)">9</button></td>
+                  <td><button type="button" value="/" onclick="key(this.value)">÷</button></td>
+               </tr>
+               <tr>
+                  <td><button type="button" value="4" id="4" onclick="key(this.id)">4</button></td>
+                  <td><button type="button" value="5" id="5" onclick="key(this.id)">5</button></td>
+                  <td><button type="button" value="6" id="6" onclick="key(this.id)">6</button></td>
+                  <td><button type="button" value="*" onclick="key(this.innerHTML);operator()">x</button></td>
+               </tr>
+               <tr>
+                  <td><button type="button" value="1" id="1" onclick="key(this.id)">1</button></td>
+                  <td><button type="button" value="2" id="2" onclick="key(this.id)">2</button></td>
+                  <td><button type="button" value="3" id="3" onclick="key(this.id)">3</button></td>
+                  <td><button type="button" value="-" onclick="key(this.innerHTML)">-</button></td>
+               </tr>
+               <tr>
+                  <td><button type="button" value="0" id="0" onclick="key(this.id)">0</button></td>
+                  <td><button type="button" value="." onclick="key(this.id)">.</button></td>
+                  <td><button type="button" value="=" onclick="equalskey()">=</button></td>
+                  <td><button type="button" value="+" id="plus" onclick="oper(this.id)">+</button></td>
+               </tr>
+           </table> 
+        </div>
+        
+        <script src="main.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+body {
+    
+}
+input{
+    border-style:inset;
+    border-width: 1px;
+    border-color: red;
+}
+table {
+    margin:auto ;
+}
+button{
+    width:64px;
+    height:32px;
+    margin:2px;
+}
+
+P{
+    border-style:inset;
+    border-width:2px;
+    width:300px;
+    height:32px;
+    margin:auto;
+    margin-bottom:10px;
+    text-align:right;
+    font-size:24px;
+    font-family:verdana;
+}
+
+#displayDiv{
+    text-align:center ;
+}
